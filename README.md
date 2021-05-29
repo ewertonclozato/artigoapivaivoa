@@ -15,6 +15,7 @@
 * 1.1 - Primeiramente damos início ao projeto clicando em: New, Project... Conforme a imagem;
 <br>
 <br>
+
 ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
 
 * 1.2 - Busque pelo Template: ASP.NET Core Web Application;
@@ -45,6 +46,7 @@
 * 2.1 - Antes de iniciarmos a codar o nosso projeto, é necessário a inclusão de algumas referências do Entity Framework Core, que podemos obter de duas maneiras:
   * 2.1.1 - Incluindo manualmente os pacotes de referências do Entity Framework abrindo o arquivo principal do seu projeto;
   <br>
+
   ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/2.1.png?raw=true)
 <br>
   * 2.1.2 - Ou podemos ir em: "**<em>Tools, NuGet Package Manager, Manage Nuget Packages for Solution</em>**";
