@@ -49,6 +49,7 @@
 
   ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/2.1.png?raw=true)
 <br>
+
   * 2.1.2 - Ou podemos ir em: "**<em>Tools, NuGet Package Manager, Manage Nuget Packages for Solution</em>**";
   <br>
 
@@ -74,6 +75,7 @@
   * 3.1.1 - Clicando com o botão direito na pasta Model vamos em "**<em>Add, Class</em>**", para adicionar a classe "**AdmDbContext**" em nosso pojeto.
 <br>
 <br>
+
 * 3.2 - Criamos a classe AdmDbContexte com a seguinte linha de código, esdando "**DbContext**" de ""**Microsoft.EntityFrameworkCore**:
 
 ~~~C#
