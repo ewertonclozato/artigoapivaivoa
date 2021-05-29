@@ -20,17 +20,20 @@
 * 1.2 - Busque pelo Template: ASP.NET Core Web Application;
 <br>
 <br>
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/1.2.png?raw=true)
 
 * 1.3 - Configure seu novo projeto, escolhendo seu nome e pasta onde o mesmo será guardado junto com sua solução;
 <br>
 <br>
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/1.3.png?raw=true)
 
 * 1.4 - Por fim, escolha o Template da sua aplicação, e clique em concluir:
 <br>
 <br>
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/1.4.png?raw=true)
 
 <br>
 <br>
@@ -42,15 +45,18 @@
 * 2.1 - Antes de iniciarmos a codar o nosso projeto, é necessário a inclusão de algumas referências do Entity Framework Core, que podemos obter de duas maneiras:
   * 2.1.1 - Incluindo manualmente os pacotes de referências do Entity Framework abrindo o arquivo principal do seu projeto;
   <br>
-  ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+  ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/2.1.png?raw=true)
 <br>
   * 2.1.2 - Ou podemos ir em: "**<em>Tools, NuGet Package Manager, Manage Nuget Packages for Solution</em>**";
   <br>
-  ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+
+  ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/2.1.2.png?raw=true)
   <br>
+
   E buscamos(em Browse) os pacotes de referências do Entity Framework necessários para nossa aplicação no momento. **Lembrando sempre de selecionar a última versão ESTÁVEL dos pacotes necessários:**
   <br>
-  ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+
+  ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/2.1.22.png?raw=true)
 <br>
 <br>
 
@@ -59,8 +65,10 @@
 
 * 3.1 - Clicamos com o botão direito no nosso projeto e vamos em "**<em>Add, New Folder</em>**", para criarmos uma nova pasta chamada "**Model**";
   <br>
-  ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+
+  ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/3.1.png?raw=true)
   <br>
+
   * 3.1.1 - Clicando com o botão direito na pasta Model vamos em "**<em>Add, Class</em>**", para adicionar a classe "**AdmDbContext**" em nosso pojeto.
 <br>
 <br>
@@ -80,7 +88,8 @@ public class AdmDbContext : DbContext
 ~~~
   * 3.3 - Provávelmente iremos receber uma mensagem de erro, e para consertar isso precisamos usar a referência do Entity Framework na nossa classe, clicando com o botão direito em cima de algum erro e em seguida clicando em "**<em>using Microsoft.EntityFrameworkCore;</em>**" (ou Ctrl+.):
   <br>
-  ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+
+  ![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/3.3.png?raw=true)
 <br>
 <br>
 
@@ -105,7 +114,7 @@ public class Cliente
 ~~~
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/4.1.png?raw=true)
 
 <br>
 
@@ -129,7 +138,7 @@ public class Cartao
 ~~~
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/4.2.png?raw=true)
 
 <br>
 <br>
@@ -150,7 +159,8 @@ public void ConfigureServices(IServiceCollection services)
 ~~~
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/5.1.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/5.11.png?raw=true)
 
 <br>
 
@@ -172,7 +182,7 @@ public void ConfigureServices(IServiceCollection services)
 ~~~
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/5.2.png?raw=true)
 
 <br>
 
@@ -182,28 +192,28 @@ public void ConfigureServices(IServiceCollection services)
 * 6.1 - Abrimos o Package Maneger Console para usar a ferramenta "**Migration**" do Entity Framework:
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/6.1.png?raw=true)
 
 <br>
 
 * 6.2 Usamos o comando "**<em>Add-migration initial</em>**" para criar o script de criação(ou atualização) do banco de dados:
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/6.2.png?raw=true)
 
 <br>
 
 Podemos observar que automaticamente é criado a pasta "**Migraton**", com os dados do script de atualização do banco de dados:
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/6.22.png?raw=true)
 
 <br>
 
 * 6.3 - Usamos o comando "**<em>Update-Database</em>**", para criar ou atualizar nosso banco de dados e suas respectivas tabelas (Cliente e Cartão):
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/6.3.png?raw=true)
 
 <br>
 
@@ -214,7 +224,7 @@ Podemos observar que automaticamente é criado a pasta "**Migraton**", com os da
 * 7.1 - Criamos a classe "**AdmController**";
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.1.png?raw=true)
 
 <br>
 
@@ -224,7 +234,7 @@ Route para especificar um pedaço da rota da nossas APIS e ApiController para de
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.2.png?raw=true)
 
 <br>
 
@@ -233,7 +243,7 @@ Route para especificar um pedaço da rota da nossas APIS e ApiController para de
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.3.png?raw=true)
 
 <br>
 
@@ -242,7 +252,7 @@ A explicação de cada trecho de código está em forma de comentário abaixo:
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.4.png?raw=true)
 
 <br>
 
@@ -251,31 +261,41 @@ A explicação de cada trecho de código está em forma de comentário abaixo:
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.5.png?raw=true)
 
 <br>
 
-* 7.6 - Antes de abrir o postman, execute o projeto para que copie de forma facil a url local que utilizaremos no postman:
+* 7.6 - Finalizando esse processo da criação da controller, temos então nossas APIs criadas.
+Para testarmos, vamos utilizar o Postman para fazer a requisição das APIs.
+O postman pode ser baixado pelo site: https://www.postman.com/downloads/
+
+<br>
+
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.6.png?raw=true)
+
+<br>
+
+* 7.7 - Antes de abrir o postman, execute o projeto para que copie de forma facil a url local que utilizaremos no postman:
 print do browser:
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.7.png?raw=true)
 
 <br>
 
-* 7.7 - Copie a url do browser, abra o postman e coloque a url e selecione o verbo POST da chamada.
+* 7.8 - Copie a url do browser, abra o postman e coloque a url e selecione o verbo POST da chamada.
 Para completar a url com o restante das informações, insira dessa forma:
 api/admcontroller/insert-cliente
 essa url consiste no padrão que definimos de exibição, com o nome da controller no meio (insert-cliente) e com o nome do nosso método no final (insert-cliente):
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.8.png?raw=true)
 
 <br>
 
-* 7.8 - Definimos que o request da nossa API é a classe de Cliente. 
+* 7.9 - Definimos que o request da nossa API é a classe de Cliente. 
 Para definirmos no postman que vamos utilizar json como tipo de parametro, selecione a aba Body, a opção "raw"e depois a opção ""JSON"
 Então, depois disso, devemos montar nosso json de request da seguinte maneira:
 {
@@ -286,27 +306,27 @@ Então, depois disso, devemos montar nosso json de request da seguinte maneira:
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.9.png?raw=true)
 
 <br>
 
-* 7.9 - Depois de definirmos as configurações anteriores, abra uma nova aba e refaça as configurações alterando apenas o JSON, que passaremos o email que definimos de request e a URL chamada:
+* 7.10 - Depois de definirmos as configurações anteriores, abra uma nova aba e refaça as configurações alterando apenas o JSON, que passaremos o email que definimos de request e a URL chamada:
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.10.png?raw=true)
 (Faça esse processo algumas vezes para ter mais registros na base)
 
 <br>
 
-* 7.10 - Agora vamos testar o retorno dos clientes e seus respectivos cartões.
+* 7.11 - Agora vamos testar o retorno dos clientes e seus respectivos cartões.
 Como definimos que o e-mail seria apenas o parametro de entrada e não recebemos a data de criação.
 Fizemos um ajuste simples no banco de dados colocando datas fictícias para efeito de teste somente. 
 Segue script:
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.11.png?raw=true)
 Atribua os IDs corretos com base no select da tabela dos seus registros criados.
 
   UPDATE Cartao SET DataCriacao = '2019-10-10'
@@ -320,23 +340,23 @@ Atribua os IDs corretos com base no select da tabela dos seus registros criados.
 
   <br>
 
-* 7.11 - Feito isso, podemos testar finalmente o nosso GET.
+* 7.12 - Feito isso, podemos testar finalmente o nosso GET.
 Abra novamente o Postman , faça o mesmo processo que foi explicado anteriromente mas agora alterando a url desta forma: https://localhost:44392/api/admcontroller/:email. Onde aqui definimos que usaremos o parametro de e-mail no request.
 
 Abaixo, coloque o e-mail que criamos anteriormente que será usado de parâmetro, conforme imagem abaixo:
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.12.png?raw=true)
 (Faça esse processo algumas vezes para ter mais registros na base)
 
 <br>
 
-* 7.12 - Depois de clicar em SEND, podemos ver que temos o retorno do cliente que pedimos e seus respectivos cartões, ordenados por ordem de criação:
+* 7.13 - Depois de clicar em SEND, podemos ver que temos o retorno do cliente que pedimos e seus respectivos cartões, ordenados por ordem de criação:
 
 <br>
 
-![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/novoprojeto.png?raw=true)
+![](https://github.com/ewertonclozato/artigoapivaivoa/blob/master/imagens/7.13.png?raw=true)
 (Faça esse processo algumas vezes para ter mais registros na base)
 
 <br>
