@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GeradorCartaoAPI.Migrations
 {
     [DbContext(typeof(AdmDbContext))]
-    [Migration("20210528023311_initial")]
+    [Migration("20210528224028_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
